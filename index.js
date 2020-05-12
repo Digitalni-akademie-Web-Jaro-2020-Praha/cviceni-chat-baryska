@@ -57,5 +57,5 @@ const onSubmit = (event) => {
     body: `{"name":"${nameInputElement.value}","message":"${messageInputElement.value}"}`
   })
 
-  document.querySelector('#send-form').addEventListener('submit', onSubmit);
 }
+document.querySelector('#send-form').addEventListener('submit', onSubmit);
